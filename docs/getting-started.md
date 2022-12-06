@@ -29,24 +29,24 @@ Users can friend requests to other users who have an open relationship with them
 
 ### Comments
 
-- [] As a user, I can see list of comments on post.
-- [] As a user, I can write comments on a post.
-- [] As a user, I can update my comments.
-- [] As a user, I can delete my comments.
+- [ ] As a user, I can see list of comments on post.
+- [ ] As a user, I can write comments on a post.
+- [ ] As a user, I can update my comments.
+- [ ] As a user, I can delete my comments.
 
 ### Reactions
 
-- [] As a user, I can react like or dislike to a post or a comment.
+- [ ] As a user, I can react like or dislike to a post or a comment.
 
 ### Fiends
 
-- [] As a user, I can send a friend request ro another user who is not my friend.
-- [] As a user, I can see a list of friend requests I have received.
-- [] As a user, I can see a list of friend requests I have sent.
-- [] As a user, I can see a list of my friends.
-- [] As a user, I can accept or decline a friend request.
-- [] As a user, I can cencel friend request I sent.
-- [] As a user, I can unfriend a user in my friend list.
+- [ ] As a user, I can send a friend request ro another user who is not my friend.
+- [ ] As a user, I can see a list of friend requests I have received.
+- [ ] As a user, I can see a list of friend requests I have sent.
+- [ ] As a user, I can see a list of my friends.
+- [ ] As a user, I can accept or decline a friend request.
+- [ ] As a user, I can cencel friend request I sent.
+- [ ] As a user, I can unfriend a user in my friend list.
 
 ## Endpont APIs
 
