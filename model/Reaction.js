@@ -3,13 +3,30 @@ const Schema = mongoose.Schema;
 
 const reactionSchema = Schema(
   {
-    name: {
-      type: String,
+    author: {
+      type: Schema.ObjectId,
       required: true,
+      ref: "User"
+    },
+    targetType: {
+      type:String,
+      required: true,
+      enum: ["Post", "Comment"]
+    }, 
+    targetId: {
+      type: Schema.ObjectId,
+      required: true,
+      refPath: "targetType",
+    },
+
+    emoji: {
+      type: String, 
+      required: true,
+      enum: ["like", "dislike"],
     },
   },
   {
-    timestamp: true,
+    timestamps: true,
   }
 );
 
